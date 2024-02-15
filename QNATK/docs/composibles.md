@@ -27,7 +27,7 @@ After calling `useForm` function , it returns an object with following propertie
 1. **callbacks** -  An array of objects containing callback functions which can be executed when a specific event occurs (e.g., onSuccess, onError and beforeSubmit). It is a reactive variable.
 1. **resetForm** -  A method which resets all fields to their original values and clears all filled values.
 
-## use-datatables
+## useDatatable
  `useDatatable` in qnatk use to fetch the data from database table and display that data in the web page. It displays the data in perfect manner like how much data will show at a time and also provide the pagination like if  the table contains the 20 rows so while using `useDatatable` it will print first 10 rows and rest will print in next page. I also sorts the data accordingly. it also handles the error which have been occurred while fetching the data from the table.
 
 This is the code snippet to use  `useDatatable` in your vue 3 project:
@@ -54,5 +54,5 @@ After calling `useDatatable` function , it returns an object with following prop
 1. **fetchData** - An object containing values which were fetched from table. You can pass this option directly into Vue
 1. **onRequest** -
 1. **closeDialogAndReload** -  A method to close add or edit form dialog and reload data of the table.
-1. **downloadData** -
-1. **lacHookName** -
+1. **downloadData** -  A method to download the data in CSV format.
+1. **lacHookName** -    Hook name to execute before loading the data.
