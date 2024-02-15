@@ -3,7 +3,9 @@ nav:
 - Home: index.md
 - Frontend: 
     - Basics: qnatk-q.md
-    - Composibles : composibles.md
+    - Composibles:
+        - useForm: useForm.md
+        - useDatatables: useDatatables.md
 - Backend: 
     - Basics: qnatk-n.md
     
