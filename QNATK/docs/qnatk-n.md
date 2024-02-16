@@ -5,6 +5,12 @@
  The main purpose of QNATK is to reduce the repeatative requirements like error handling , input validation and model mapping when developing web applications.
 
  The another main purpose is code maintainability  and reusability, so we can reuse components in different projects with minimal changes.
+## Nest Js Setup
+For installation nest js and require basic setup you should go to following link:
+
+[Nest JS](https://docs.nestjs.com/)
+
+
 ## Installation
 !!! warning
     Currently it is a Beta version thats why you have to use it through submodule, later we will convert it into a node package so you can install it with the help of npm. 
