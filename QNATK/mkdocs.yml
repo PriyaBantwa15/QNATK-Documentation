@@ -8,8 +8,7 @@ nav:
         - useDatatables: useDatatables.md
 - Backend: 
     - Basics: qnatk-n.md
-    - Hook-system: hooklist.md
-    - Pre-made Api: api.md
+    - Setup : setUp.md
 theme: readthedocs
 markdown_extensions:
   - admonition

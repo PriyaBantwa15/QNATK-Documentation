@@ -20,6 +20,7 @@ For installation nest js and require basic setup you should go to following link
 ```bash
 git submodule init
 git submodule add https://github.com/gowrav-vishwakarma/qnatk-n src/qnatk
+git add gitmodules
 ```
 ## Updation
  Later you will have to update the submodule  using the following command:
